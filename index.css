@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif, 'Poppins';
+}
+
+.background{
+    background-image: url(car-car-park.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(59, 68, 75, 0.8);
+}
+
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#title{
+    font-family: Magnolia;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: Magnolia;
+    src: url(Magnolia\ Script.otf);
+}
+
+.form-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    padding: 8px 13px;
+    border-radius: 8px;
+    border: none;
+}
+
+label{
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 3px 5px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.map-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-area{
+    margin-left: 10px;
+}
+
+select{
+    width: 100%;
+
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#bookNowButton {
+    display: none;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-btn{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 15px;
+}
